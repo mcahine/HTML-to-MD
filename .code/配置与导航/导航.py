@@ -43,7 +43,7 @@ def scan_dir(path, base_path, serve_idx=None):
 
     for item in items:
         name = item.name
-        if name.startswith('.') or name in SKIP_DIRS:
+        if name.startswith('.') or name in SKIP_DIRS or name == '导航.html':
             continue
 
         if item.is_dir():
