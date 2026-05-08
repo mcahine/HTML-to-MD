@@ -1,0 +1,26 @@
+# Generated/converted files
+*.md
+!CLAUDE.md
+!README.md
+*.html
+assets/
+
+# Obsidian config
+.obsidian/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.log
