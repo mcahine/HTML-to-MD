@@ -2,6 +2,8 @@
 *.md
 !CLAUDE.md
 !README.md
+!AGENTS.md
+!全自动知识卡片元数据生成规范 (v1.0).md
 !.code/知识卡片元数据应用方案.md
 !.docx/*.md
 *.html

@@ -49,6 +49,7 @@ python .code/archive_html.py
 ├── 掘金/
 ├── ...（30+ 网站）
 └── .docx/                 ← 详细文档
+```
 
 ## 文件命名规范
 
@@ -62,7 +63,6 @@ python .code/archive_html.py
 
 ### 转换器开发
 - [ ] 将国家统计局的网页转换为 MD 文档（stats.gov.cn，需编写转换器）
-- [ ] dx2025.com、dx2035.cn 网页转换（东西智库新域名）
 
 ### 知识卡片元数据补全与应用
 - [ ] 为仅有基础型元数据的存量文档批量补全知识卡片型元数据（tags / category / summary / problem 等）
