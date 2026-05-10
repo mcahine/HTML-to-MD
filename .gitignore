@@ -2,6 +2,7 @@
 *.md
 !CLAUDE.md
 !README.md
+!.code/知识卡片元数据应用方案.md
 *.html
 assets/
 

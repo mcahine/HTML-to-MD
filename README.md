@@ -31,6 +31,7 @@ python .code/archive_html.py
 | 流程手册 | `.docx/流程手册.md` | 从分类到归档的完整操作流程 |
 | 经验复盘 | `.docx/经验复盘.md` | 踩过的坑和解决方案 |
 | 技术文档 | `.docx/技术文档.md` | 各代码模块详细说明 |
+| 元数据应用方案 | `.code/知识卡片元数据应用方案.md` | 知识卡片元数据的结构、场景与实施路线 |
 
 ## 目录结构
 
@@ -59,12 +60,13 @@ python .code/archive_html.py
 
 ## 下一步 (TODO)
 
+### 转换器开发
 - [ ] 将国家统计局的网页转换为 MD 文档（stats.gov.cn，需编写转换器）
 - [ ] dx2025.com、dx2035.cn 网页转换（东西智库新域名）
 
-
-```
-
-## 下一步 (TODO)
-
-- [ ] 将国家统计局的网页转换为 MD 文档（stats.gov.cn，需编写转换器）
+### 知识卡片元数据补全与应用
+- [ ] 为仅有基础型元数据的存量文档批量补全知识卡片型元数据（tags / category / summary / problem 等）
+- [ ] 编写 `generate_semantic_nav.py`，按 category / tags / problem 生成静态语义导航页
+- [ ] 在 `.obsidian/` 中预设 Dataview 查询模板（精华阅读表、待完善清单、按难度分级表）
+- [ ] 抽取 `summary` + `description` + `problem` 构建元数据级语义检索索引
+- [ ] 编写 `weekly_review.py`，按周聚合阅读内容自动生成回顾 Markdown
