@@ -1,4 +1,4 @@
-# 网页结构分析与 Markdown 转换项目
+# HTML to MD
 
 将 SingleFile 保存的 HTML 网页批量转换为结构化 Markdown，覆盖 30+ 中文网站。
 
@@ -68,4 +68,3 @@ python .code/archive_html.py
 ## 下一步 (TODO)
 
 - [ ] 将国家统计局的网页转换为 MD 文档（stats.gov.cn，需编写转换器）
-# HTML-to-MD
